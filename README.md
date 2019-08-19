@@ -16,9 +16,28 @@ Além de nossos três produtos principais, KeyApp, InSight Now e a plataforma Pr
 
 ---
 
+<p align="center"><img src="https://raw.githubusercontent.com/cyberlabsai/desafios-frontend/master/dvd-screensaver.gif"></p>
 
-DESAFIO
+Reproduza este papel de parede dos antigos DVD's players no navegador.
 
+Este desafio te dará noções excelentes sobre posicionamento absoluto, matemática, controle de objetos na tela, manipulações de API's e de SVG.
+
+Requisitos obrigatórios para a realização do desafio:
+ - JavaScript puro ou Vue.JS (projetos em Angular ou React serão desconsiderados)
+ - Se escolher Vue, você pode utilizar Vuex ou Redux para gerenciar os estados globais, porém não é obrigatório
+ - CSS puro ou SASS (pode ser SCSS, mas preferimos SASS)
+ - SVG direto no código, não pode ser uma tag `<img />`
+ - Você não poderá usar nenhuma biblioteca para o cálculo da posição do logotipo ou que facilite a animação em si
+ - Você pode utilizar PUG para escrever o HTML, porém não é obrigatório
+
+Se utilizar Vue, você deve criar no mínimo dois componentes, um para a página toda e outro para o logotipo do DVD em si utilizando CSS Scoped nos dois.
+Se usar JavaScript puro, você deverá utilizar arquivos JS separados para a página principal e para o logotipo do DVD, da mesma forma que deve separar o arquivo CSS ou SASS e o HTML.
+
+A cada vez que o logotipo do DVD tocar em qualquer uma das extremidades da tela, você deverá fazer uma requisição externa para a API (http://www.colourlovers.com/api/colors/random?format=json), ela retornará uma cor aleatória a cada chamada, você deve atribuir a chave `hex` ao `fill` do SVG do logotipo.
+Você pode utilizar Fetch API (https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API), Axios (https://github.com/axios/axios), XMLHTTPRequest (https://developer.mozilla.org/pt-BR/docs/Web/API/XMLHttpRequest) ou qualquer outra biblioteca para realizar as requisições.
+Documente todo o código, HTML, CSS e JS/Vue, a documentação será fundamental para entender o que você fez em cada parte do código.
+
+Quanto mais elaborado for seu projeto, mais bem avaliado você será.
 
 ---
 
