@@ -48,10 +48,11 @@ Antes de iniciar os passos necessários para realizar o desafio, tenha em mente 
 1. Dê um fork neste repositório.
 2. Clone o fork na sua máquina.
 3. Escreva seu programa utilizando estritamente todos os requisitos listados pelo desafio. É muito importante você ter em mente qua avaliaremos seus commits no Git, então, não esqueça de realizar um commit a cada vitória conquistada!
-4. Assim que testar tudo e validar que tudo funciona, faça seu último commit com o título 'Finalização do desafio de {{Área}} da Cyberlabs'.
-5. Abra uma issue neste repositório com o título '[DESAFIO] {{Seu nome}} - {{Sua cidade}}'.
-6. No conteúdo da issue faça um breve resumo sobre você, uma mini-bio bem simples mesmo, falando algo que possa chamar nossa atenção, pode ser um hobbie, experiências profissionais passadas, acontecimentos e curiosidades sobre o decorrer do desafio ou qualquer coisa extra que você gostaria de compartilhar conosco. Isso é muito importante para que nós possamos aprender um pouco mais sobre você.
-7. Na sequência da sua bio, coloque o link do seu fork aqui do github com o código que você gerou. Aproveite também para nos enviar seu LinkedIn e se quiser, seu e-mail, além de outras formas de contato, como suas redes sociais por exemplo.
+4. Seu repositório deverá conter um `README.md` descrevendo os passos para rodar o código.
+5. Assim que testar tudo e validar que tudo funciona, faça seu último commit com o título 'Finalização do desafio de {{Área}} da Cyberlabs'.
+6. Abra uma issue neste repositório com o título '[DESAFIO] {{Seu nome}} - {{Sua cidade}}'.
+7. No conteúdo da issue faça um breve resumo sobre você, uma mini-bio bem simples mesmo, falando algo que possa chamar nossa atenção, pode ser um hobbie, experiências profissionais passadas, acontecimentos e curiosidades sobre o decorrer do desafio ou qualquer coisa extra que você gostaria de compartilhar conosco. Isso é muito importante para que nós possamos aprender um pouco mais sobre você.
+8. Na sequência da sua bio, coloque o link do seu fork aqui do github com o código que você gerou. Aproveite também para nos enviar seu LinkedIn e se quiser, seu e-mail, além de outras formas de contato, como suas redes sociais por exemplo.
 
 Assim que sua issue for aberta, algum membro da [Cyberlabs](https://cyberlabs.ai) entrará em contato com você diretamente e após analisar seu desafio, te dará um feedback transparente sobre ele e te encaminhará para os próximos passos, se for o caso.
 
