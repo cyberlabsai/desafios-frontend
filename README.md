@@ -18,7 +18,7 @@ Além de nossos três produtos principais, KeyApp, InSight Now e a plataforma Pr
 
 <p align="center"><img src="https://raw.githubusercontent.com/cyberlabsai/desafios-frontend/master/dvd-screensaver.gif"></p>
 
-Reproduza este papel de parede dos antigos DVD's players no navegador.
+Reproduza este protetor de tela dos antigos DVD's players no navegador.
 
 Este desafio te dará noções excelentes sobre posicionamento absoluto, matemática, controle de objetos na tela, manipulações de API's e de SVG.
 
