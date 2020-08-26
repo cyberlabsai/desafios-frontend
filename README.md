@@ -10,8 +10,6 @@ Somos muito transparentes em tudo que fazemos por aqui e temos o objetivo master
 #### Nossa empresa 💃
 Se você curte inovação, a Cyberlabs irá lhe proporcionar um ambiente gigante de aprendizado. Já somos 30+ pessoas em constante evolução e crescimento. Temos integrantes no Rio, Brasília e Floripa e projetos grandes de AI no Brasil todo pra você participar.
 
-Além de nossos três produtos principais, KeyApp, InSight Now e a plataforma Predisaurus, temos em nossa carteira de clientes empresas como iFood, Wilson Sons, Aeroporto Rio Galeão, SmartFit, BlueFit, Accenture, BodyTech, entre outras...
-
 [Conheça mais sobre nossos projetos e o que fazemos](https://cyberlabs.ai) 💙
 
 ---
@@ -34,6 +32,9 @@ Se utilizar Vue, você deve criar no mínimo dois componentes, um para a página
 Se usar JavaScript puro, você deverá utilizar arquivos JS separados para a página principal e para o logotipo do DVD, da mesma forma que deve separar o arquivo CSS ou SASS e o HTML.
 
 A cada vez que o logotipo do DVD tocar em qualquer uma das extremidades da tela, você deverá fazer uma requisição externa para a API (http://www.colourlovers.com/api/colors/random?format=json), ela retornará uma cor aleatória a cada chamada, você deve atribuir a chave `hex` ao `fill` do SVG do logotipo.
+
+Essa API não é mantida pela Cyberlabs, então, caso ela apresente algum erro de CORS, você poderá, alternativamente, fazer uma requisição para um arquivo `.json` local no projeto contendo um Array de cores hexadecimais, aplicar um `.sort()` no Array e pegar o primeiro elemento resultante do sorteio.
+
 Você pode utilizar Fetch API (https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API), Axios (https://github.com/axios/axios), XMLHTTPRequest (https://developer.mozilla.org/pt-BR/docs/Web/API/XMLHttpRequest) ou qualquer outra biblioteca para realizar as requisições.
 Documente todo o código, HTML, CSS e JS/Vue, a documentação será fundamental para entender o que você fez em cada parte do código.
 
